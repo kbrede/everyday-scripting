@@ -1,24 +1,45 @@
-old_inventory = File.open('old-inventory.txt').readlines
-new_inventory = File.open('new-inventory.txt').readlines
+def check_usage
+  unless ARGV.length == 2 
+    puts "Usage: differences.rb old-inventory new-inventory"
+    exit
+  end
+end
 
-puts "The following files have been added:"
-puts new_inventory - old_inventory
+def contains?(line, boring_word)
+  line.chomp.split('/').include?(boring_word)
+end
 
-puts ""
-puts "The following files have been deleted:"
-puts old_inventory - new_inventory
+def boring?(line, boring_words)
+  boring_words.any? do | a_boring_word |
+    contains?(line, a_boring_word)
+  end
+end
 
-puts ""
-print "The number of new files added: "
-num_new_files = (new_inventory - old_inventory).length
-puts num_new_files
+def inventory_from(filename)
+#def inventory_from(filename, boring_words)
+  inventory = File.open(filename)  
+  downcased = inventory.collect do | line | 
+    line.downcase  # (1)
+  end 
+  downcased.reject do | line |   
+    boring?(line, ['temp', 'recycler'])
+    #boring?(line, boring_words)
+  end
+end
 
-puts ""
-print "The number of old files removed: "
-num_files_removed = (old_inventory - new_inventory).length
-puts num_files_removed
+def compare_inventory_files(old_file, new_file) # (2)
+  old_inventory = inventory_from(ARGV[0])
+  new_inventory = inventory_from(ARGV[1])
+  
+  puts "The following files have been added:"
+  puts new_inventory - old_inventory
+  
+  puts ""
+  puts "The following files have been deleted:"
+  puts old_inventory - new_inventory
+end
 
-puts""
-print "The number of files unchanged in old-inventory.txt: "
-num_files_unchanged = new_inventory.length - num_new_files
-puts num_files_unchanged
+if $0 == __FILE__ # (3)
+  check_usage 
+  compare_inventory_files(ARGV[0], ARGV[1]) 
+end
