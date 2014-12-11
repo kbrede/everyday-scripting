@@ -1,0 +1,17 @@
+K 8
+svn:date
+V 27
+2006-08-07T17:41:31.703155Z
+K 17
+svn:sync-from-url
+V 38
+svn://rubyforge.org/var/svn/churn-demo
+K 18
+svn:sync-from-uuid
+V 36
+a69517fd-701a-0410-8cc4-c92198f07544
+K 24
+svn:sync-last-merged-rev
+V 2
+13
+END

@@ -1,0 +1,43 @@
+PLAIN
+K 5
+audit
+V 17
+dir 0-1.0.r10/489
+K 4
+awta
+V 16
+dir 0-11.0.r11/0
+K 11
+fulfillment
+V 16
+dir 5-1.0.r4/243
+K 9
+inventory
+V 16
+dir 9-1.0.r2/280
+K 11
+persistence
+V 17
+dir d-1.0.r10/878
+K 2
+ui
+V 18
+dir h-1.0.r10/1330
+K 4
+util
+V 18
+dir l-1.0.r10/1747
+END
+ENDREP
+id: 0.0.r12/260
+type: dir
+pred: 0.0.r11/419
+count: 12
+text: 12 0 247 247 17c40758e253e4d33f82b823a6a58fd4
+cpath: /
+copyroot: 0 /
+
+2-11.0.r11/64 delete-dir false false /foo
+
+
+260 390

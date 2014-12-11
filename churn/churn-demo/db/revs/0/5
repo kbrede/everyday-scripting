@@ -1,0 +1,65 @@
+id: 1-5.0.r5/0
+type: file
+count: 0
+text: 2 0 17 5 a9564ebc3289b7a14551baf8ad5ec60a a975c295ddeab5b1a5323df92f61c4cc9fc88207 4-4/_3
+cpath: /ui/touchme2
+copyroot: 0 /
+
+PLAIN
+K 7
+touchme
+V 17
+file i-1.0.r3/372
+K 8
+touchme2
+V 15
+file 1-5.0.r5/0
+END
+ENDREP
+id: h-1.0.r5/252
+type: dir
+pred: h-1.0.r3/611
+count: 2
+text: 5 166 73 73 048d2f70a50b39ff7679dc332b52c5fc
+cpath: /ui
+copyroot: 0 /
+
+PLAIN
+K 5
+audit
+V 16
+dir 0-1.0.r3/237
+K 11
+fulfillment
+V 16
+dir 5-1.0.r4/243
+K 9
+inventory
+V 16
+dir 9-1.0.r2/280
+K 11
+persistence
+V 17
+dir d-1.0.r1/1366
+K 2
+ui
+V 16
+dir h-1.0.r5/252
+K 4
+util
+V 16
+dir l-1.0.r4/625
+END
+ENDREP
+id: 0.0.r5/608
+type: dir
+pred: 0.0.r4/984
+count: 5
+text: 5 384 211 211 d89da9380b9d2e7ba82250c0b10e9b89
+cpath: /
+copyroot: 0 /
+
+_1.0.t4-4 add-file true false /ui/touchme2
+
+
+608 736

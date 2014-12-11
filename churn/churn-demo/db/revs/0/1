@@ -1,0 +1,199 @@
+DELTA
+SVNENDREP
+DELTA
+SVNENDREP
+DELTA
+SVNENDREP
+DELTA
+SVNENDREP
+DELTA
+SVNENDREP
+DELTA
+SVNENDREP
+id: 2-1.0.r1/102
+type: file
+count: 0
+text: 1 0 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 0-0/_4
+cpath: /audit/touchme
+copyroot: 0 /
+
+PLAIN
+K 7
+touchme
+V 17
+file 2-1.0.r1/102
+END
+ENDREP
+id: 0-1.0.r1/323
+type: dir
+count: 0
+text: 1 271 39 39 20e3ce28ada25f70005453bb7baa4b3b
+cpath: /audit
+copyroot: 0 /
+
+id: 6-1.0.r1/439
+type: file
+count: 0
+text: 1 17 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 0-0/_8
+cpath: /fulfillment/touchme
+copyroot: 0 /
+
+PLAIN
+K 7
+touchme
+V 17
+file 6-1.0.r1/439
+END
+ENDREP
+id: 5-1.0.r1/667
+type: dir
+count: 0
+text: 1 615 39 39 8e8aef8c9ac84ac7bf5c8b9f2f10681a
+cpath: /fulfillment
+copyroot: 0 /
+
+id: a-1.0.r1/789
+type: file
+count: 0
+text: 1 34 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 0-0/_c
+cpath: /inventory/touchme
+copyroot: 0 /
+
+PLAIN
+K 7
+touchme
+V 17
+file a-1.0.r1/789
+END
+ENDREP
+id: 9-1.0.r1/1015
+type: dir
+count: 0
+text: 1 963 39 39 56df9316381fd8ddc2ddffecf4bf3cb9
+cpath: /inventory
+copyroot: 0 /
+
+id: e-1.0.r1/1136
+type: file
+count: 0
+text: 1 51 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 0-0/_g
+cpath: /persistence/touchme
+copyroot: 0 /
+
+PLAIN
+K 7
+touchme
+V 18
+file e-1.0.r1/1136
+END
+ENDREP
+id: d-1.0.r1/1366
+type: dir
+count: 0
+text: 1 1313 40 40 08b422f5990fae5121c8bd617da7178b
+cpath: /persistence
+copyroot: 0 /
+
+id: i-1.0.r1/1490
+type: file
+count: 0
+text: 1 68 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 0-0/_k
+cpath: /ui/touchme
+copyroot: 0 /
+
+PLAIN
+K 7
+touchme
+V 18
+file i-1.0.r1/1490
+END
+ENDREP
+id: h-1.0.r1/1711
+type: dir
+count: 0
+text: 1 1658 40 40 be5f8e044ff3faa251a42c2de4e71673
+cpath: /ui
+copyroot: 0 /
+
+id: m-1.0.r1/1826
+type: file
+count: 0
+text: 1 85 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 0-0/_o
+cpath: /util/touchme
+copyroot: 0 /
+
+PLAIN
+K 7
+touchme
+V 18
+file m-1.0.r1/1826
+END
+ENDREP
+id: l-1.0.r1/2049
+type: dir
+count: 0
+text: 1 1996 40 40 b8e80291c95afbf514edd3650317e707
+cpath: /util
+copyroot: 0 /
+
+PLAIN
+K 5
+audit
+V 16
+dir 0-1.0.r1/323
+K 11
+fulfillment
+V 16
+dir 5-1.0.r1/667
+K 9
+inventory
+V 17
+dir 9-1.0.r1/1015
+K 11
+persistence
+V 17
+dir d-1.0.r1/1366
+K 2
+ui
+V 17
+dir h-1.0.r1/1711
+K 4
+util
+V 17
+dir l-1.0.r1/2049
+END
+ENDREP
+id: 0.0.r1/2393
+type: dir
+pred: 0.0.r0/17
+count: 1
+text: 1 2166 214 214 344e79efb12a5669ff16b5d239071aff
+cpath: /
+copyroot: 0 /
+
+_0.0.t0-0 add-dir false false /audit
+
+_2.0.t0-0 add-file true false /audit/touchme
+
+_5.0.t0-0 add-dir false false /fulfillment
+
+_6.0.t0-0 add-file true false /fulfillment/touchme
+
+_9.0.t0-0 add-dir false false /inventory
+
+_a.0.t0-0 add-file true false /inventory/touchme
+
+_d.0.t0-0 add-dir false false /persistence
+
+_e.0.t0-0 add-file true false /persistence/touchme
+
+_h.0.t0-0 add-dir false false /ui
+
+_i.0.t0-0 add-file true false /ui/touchme
+
+_l.0.t0-0 add-dir false false /util
+
+_m.0.t0-0 add-file true false /util/touchme
+
+
+2393 2522
